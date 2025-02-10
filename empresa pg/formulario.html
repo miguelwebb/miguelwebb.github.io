@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de PC Portátil - Gemaware</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo gmaware.jpg" alt="Logo Gemaware">
+            <h1>Gemaware - Laboratorio Técnico</h1>
+        </div>
+        <h2>Formulario de Ingreso de PC Portátil</h2>
+    </header>
+
+    <section class="formulario">
+        <form action="procesar_formulario.php" method="post">
+            <label for="marca" class="elegante-text">Marca:</label>
+            <input type="text" id="marca" name="marca" required>
+
+            <label for="modelo" class="elegante-text">Modelo:</label>
+            <input type="text" id="modelo" name="modelo" required>
+
+            <label for="color" class="elegante-text">Color del Equipo:</label>
+            <input type="text" id="color" name="color" required>
+
+            <label for="serie" class="elegante-text">Número de Serie:</label>
+            <input type="text" id="serie" name="serie" required>
+
+            <label for="especificaciones" class="elegante-text">Especificaciones:</label>
+            <textarea id="especificaciones" name="especificaciones" required></textarea>
+
+            <label for="problema" class="elegante-text">Problema:</label>
+            <textarea id="problema" name="problema" required></textarea>
+
+            <input type="submit" value="Enviar" class="elegante-btn">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gemaware. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
