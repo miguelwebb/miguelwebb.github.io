@@ -1,0 +1,179 @@
+/* Fuentes y Estilos */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    color: rgb(27, 209, 164);
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 200px;
+    height: auto;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #a1c4fd; /* Un color azul suave */
+}
+
+/* Botonera */
+.botonera {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.botonera .btn {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px;
+    transition: background-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botonera .btn:hover {
+    background-color: #444;
+}
+
+/* Sección de Formulario */
+section.formulario {
+    width: 80%;
+    margin: 70px auto;
+    background-color: rgb(68, 67, 67);
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(39, 21, 196, 0.1);
+    margin-bottom: 30px; /* Asegura que haya espacio entre el formulario y el pie de página */
+}
+
+/* Estilos del formulario */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+    color: #00ff9d; /* Color llamativo tipo neón */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #000000; /* Borde neón */
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6em;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff00e6; /* Borde neón rosado */
+    background-color: #222; /* Fondo oscuro en el campo */
+    color: white;
+}
+
+/* Estilos para el botón de envío */
+.elegante-btn {
+    background-color: #00ff40;
+    color: rgb(0, 0, 0);
+    padding: 12px 45px;
+    border: none;
+    border-radius: 41px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:em;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover en el botón */
+.elegante-btn:hover {
+    background-color: #ff00e6; /* Color neón rosado */
+}
+.producto {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    margin: 10px 0;
+    background-color: rgb(167, 167, 167);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto .info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.producto h3 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+}
+
+.producto p {
+    font-size: 1.1em;
+}
+
+.producto .precio {
+    color: #000000; 
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.producto .btn-compra {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.producto .btn-compra:hover {
+    background-color: #218838;
+}
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
